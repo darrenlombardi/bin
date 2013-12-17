@@ -29,10 +29,8 @@ alias lh="ls -lh"
 alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
-alias s='git status'
 alias ..='cd ..'
 alias ...='cd ~'
-alias pk='cd ~/dev/pk'
 
 function take() { 
     mkdir -p "$1"
@@ -87,6 +85,7 @@ alias gp='git push'
 alias gst='git status'
 alias gt='git status'
 alias g='git status'
+alias s='git status'
 alias eg='mate .git/config'
 # Git clone from GitHub
 function gch() {
