@@ -1,0 +1,8 @@
+export JAVA_HOME=/home/elvis/apps/java
+export M2_HOME=/home/elvis/apps/maven
+export NODE_HOME=/home/elvis/apps/nodejs
+export PHANTOMJS_HOME=/home/elvis/apps/phantomjs
+export WEBSTORM_HOME=/home/elvis/apps/webstorm
+export INTELLIJ_HOME=/home/elvis/apps/intellij
+
+export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$NODE_HOME/bin:$PHANTOMJS_HOME/bin:$WEBSTORM_HOME/bin:$INTELLIJ_HOME/bin:~/bin:$PATH
