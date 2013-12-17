@@ -1,0 +1,2 @@
+. ~/bin/dotfiles/bashrc
+
