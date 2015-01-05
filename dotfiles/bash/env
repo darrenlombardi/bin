@@ -1,8 +1,9 @@
-export JAVA_HOME=/home/elvis/apps/java
-export M2_HOME=/home/elvis/apps/maven
-export NODE_HOME=/home/elvis/apps/nodejs
-export PHANTOMJS_HOME=/home/elvis/apps/phantomjs
-export WEBSTORM_HOME=/home/elvis/apps/webstorm
-export INTELLIJ_HOME=/home/elvis/apps/intellij
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
+export M2_HOME=/users/lombdm/apps/maven
+export NODE_HOME=/users/lombdm/apps/nodejs
+export PHANTOMJS_HOME=/users/lombdm/apps/phantomjs
+export CASSANDRA_HOME=/users/lombdm/apps/cassandra
+export OPSCENTER_HOME=/users/lombdm/apps/opscenter
+export MONGODB_HOME=/users/lombdm/apps/mongodb
 
-export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$NODE_HOME/bin:$PHANTOMJS_HOME/bin:$WEBSTORM_HOME/bin:$INTELLIJ_HOME/bin:~/bin:$PATH
+export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$NODE_HOME/bin:$PHANTOMJS_HOME/bin:$CASSANDRA_HOME/bin:$OPSCENTER_HOME/bin:$MONGODB_HOME/bin:~/bin:$PATH
